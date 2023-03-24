@@ -12,10 +12,42 @@ var data = {
       "Music <span class='emoji'> &#127925;</span>",
     ],
   },
+
   movies: {
     title: ["Please select category"],
-    options: ["Hindi", "English", "Web Series", "Others"],
-    url: {},
+    options: [
+      "Hindi",
+      "English",
+      "Web Series",
+      "Netflix",
+      "Amazon Prime",
+      "Voot",
+      "Zee5",
+      "Eros Now",
+      "Sony Liv",
+      "Jio Cinema",
+      "Airtel Xstream",
+      "Apple Tv+",
+      "Hotstar",
+    ],
+    url: {
+      more: "https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D",
+      link: [
+        "https://www.hotstar.com/in/movies/languages/hindi",
+        "https://www.hotstar.com/in/movies/languages/english",
+        "https://www.hotstar.com/in/channels/hotstar-specials",
+        "https://www.netflix.com/in/",
+        "https://www.primevideo.com/",
+        "https://www.voot.com/movies",
+        "https://www.zee5.com/movies",
+        "https://erosnow.com/movies",
+        "https://www.sonyliv.com/custompage/movies-399",
+        "https://www.jiocinema.com/movies",
+        "https://www.airtelxstream.in/movies",
+        "https://tv.apple.com/",
+        "https://www.hotstar.com/in",
+      ],
+    },
   },
 
   news: {
@@ -38,6 +70,7 @@ var data = {
       ],
     },
   },
+
   shopping: {
     title: [
       "Thanks for your response",
@@ -145,80 +178,32 @@ var data = {
       ],
     },
   },
+
   music: {
     title: [
       "These are some latest songs <span class='emoji'> &#127925;</span>",
     ],
     options: [
-      "Luis Fonsi - Despacito ft. Daddy Yankee",
-      "Rema, Selena Gomez - Calm Down (Official Music Video)",
-      "Maan Meri Jaan | Official Music Video | Champagne Talk | King",
-      "King - Tu Aake Dekhle | The Carnival | The Last Ride | Prod. by Shahbeatz",
-      "ZAYN - Dusk Till Dawn (Official Video) ft. Sia",
+      "Spotify",
+      "Gaana",
+      "Jio Saavn",
+      "Wynk Music",
+      "Apple Music",
+      "Sound Cloud",
+      "Amazon Prime Music",
+      "Hungama Music",
     ],
     url: {
       more: "https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ",
       link: [
-        "https://youtu.be/kJQP7kiw5Fk",
-        "https://youtu.be/CQLsdm1ZYAw",
-        "https://youtu.be/VuG7ge_8I2Y",
-        "https://youtu.be/A66TYFdz8YA",
-        "https://youtu.be/tt2k8PGm-TI",
-      ],
-    },
-  },
-  hindi: {
-    title: ["Thanks for your response", "Here are some genre based movies"],
-    options: ["Comedy", "Horror", "Sci-Fi", "Romance", "Action"],
-    url: {
-      more: "https://www.hotstar.com/in/movies/languages/hindi",
-      link: [
-        "https://www.hotstar.com/in/genres/comedy",
-        "https://www.hotstar.com/in/genres/horror",
-        "https://www.hotstar.com/in/genres/science-fiction",
-        "https://www.hotstar.com/in/genres/romance",
-        "https://www.hotstar.com/in/genres/action",
-      ],
-    },
-  },
-  english: {
-    title: ["Thanks for your response", "Here are some genre based movies"],
-    options: ["Comedy", "Horror", "Sci-Fi", "Romance", "Action"],
-    url: {
-      more: "https://www.hotstar.com/in/movies/languages/english",
-      link: [
-        "https://www.hotstar.com/in/genres/comedy",
-        "https://www.hotstar.com/in/genres/horror",
-        "https://www.hotstar.com/in/genres/science-fiction",
-        "https://www.hotstar.com/in/genres/romance",
-        "https://www.hotstar.com/in/genres/action",
-      ],
-    },
-  },
-  web: {
-    title: ["Thanks for your response", "Here are some genre based web series"],
-    options: ["Comedy", "Horror", "Sci-Fi", "Romance", "Action"],
-    url: {
-      more: "https://www.hotstar.com/in/channels/hotstar-specials",
-      link: [
-        "https://www.hotstar.com/in/genres/comedy",
-        "https://www.hotstar.com/in/genres/horror",
-        "https://www.hotstar.com/in/genres/science-fiction",
-        "https://www.hotstar.com/in/genres/romance",
-        "https://www.hotstar.com/in/genres/action",
-      ],
-    },
-  },
-  others: {
-    title: ["Here are some more options for you"],
-    options: ["YouTube", "Netflix", "Amazon Prime", "Hot Star"],
-    url: {
-      more: "https://www.youtube.com/",
-      link: [
-        "https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D",
-        "https://www.netflix.com/in/",
-        "https://www.primevideo.com/",
-        "https://www.hotstar.com/in",
+        "https://open.spotify.com/",
+        "https://gaana.com/",
+        "https://www.jiosaavn.com/",
+        "https://wynk.in/music",
+        "https://music.apple.com/us/browse",
+        "https://soundcloud.com/",
+        "https://music.amazon.in/",
+        "https://www.hungama.com/",
       ],
     },
   },
